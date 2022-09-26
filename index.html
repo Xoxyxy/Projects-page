@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Project</title>
+  <link href="fonts/GilroyRegular.woff2" as="font" type="font/woff2">
+  <link href="fonts/GilroyMedium.woff2" as="font" type="font/woff2">
+  <link href="fonts/GilroySemibold.woff2" as="font" type="font/woff2">
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer="defer" src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+      <div class="header__top">
+        <div class="container container__wrapper">
+          <div class="header__inner"><button class="btn-reset header__menu">
+              <div class="header__menu-text">Меню</div><img loading="lazy" src="img/arrow-down.svg"
+                class="image header__menu-img" width="10" height="10" alt="Стрелка вниз">
+            </button>
+            <nav class="nav header__top-nav" title="Главное меню">
+              <ul class="list-reset nav__list">
+                <li class="nav__item"><a href="#" class="nav__link">О нас</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Оплата и доставка</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Наши разработки</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Новости</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+              </ul>
+            </nav><a href="#" class="header__buttons">
+              <div class="header__button-bg"><img loading="lazy" src="img/blind-icon.svg" class="image" width="20"
+                  height="18" alt=""></div>
+              <div class="header__button-bg"><img loading="lazy" src="img/hearing-aid-icon.svg" class="image" width="15"
+                  height="22" alt=""></div>
+              <div class="header__button-bg"><img loading="lazy" src="img/disabled-people-icon-1.svg" class="image"
+                  width="18" height="20" alt=""></div>
+              <div class="header__button-bg"><img loading="lazy" src="img/disabled-people-icon-2.svg" class="image"
+                  width="9" height="20" alt=""></div>
+              <div class="header__button-bg"><img loading="lazy" src="img/disabled-icon.svg" class="image" width="18"
+                  height="20" alt=""></div>
+            </a>
+            <div class="header__contacts"><a href="mailto:rusmedical-spb@yandex.ru"
+                class="header__contact header__mail">rusmedical-spb@yandex.ru</a> <a href="tel:88005518795"
+                class="header__contact">8 (800) 551-87-95</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="header__midle">
+        <div class="container container__wrapper">
+          <div class="header__inner header__inner--midle">
+            <div class="header__midle-head"><a class="logo header__logo" href="#"><img loading="lazy" src="img/logo.svg"
+                  class="image header__logo" width="206" height="46" alt="Логотип RusMedical"></a>
+              <div class="header__midle-contacts"><a href="tel:88005518795" class="header__midle-contact"><img
+                    loading="lazy" src="img/phone.svg" class="image" width="24" height="24" alt="Телефон"> </a><a
+                  href="mailto:rusmedical-spb@yandex.ru" class="header__midle-contact"><img loading="lazy"
+                    src="img/sms.svg" class="image" width="24" height="24" alt="Почта"></a></div>
+              <form class="header__form"><label class="header__lable"><input type="text"
+                    class="input-reset header__search" placeholder="Поиск по названию"> <button
+                    class="btn-reset header__search-btn" type="submit"><img loading="lazy" src="img/search.svg"
+                      class="image" width="21" height="21" alt="Лупа"></button></label></form>
+            </div>
+            <div class="header__midle-body">
+              <div class="header__btns"><a class="logo header__logo-two" href="#"><img loading="lazy" src="img/logo.svg"
+                    class="image header__logo" width="206" height="46" alt="Логотип RusMedical"> </a><a href="#"
+                  class="header__btn header__btn--accent header__btn-first"><img loading="lazy" src="img/glasses.svg"
+                    class="image" width="24" height="24" alt="Очки"> Версия для слабовидящих</a> <button
+                  class="btn-reset header__btn header__btn--black header__basket-btn"><svg width="16" height="16"
+                    viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M5.60002 4.33301H10.4C12.6667 4.33301 12.8934 5.39301 13.0467 6.68634L13.6467 11.6863C13.84 13.3263 13.3334 14.6663 11 14.6663H5.00668C2.66668 14.6663 2.16002 13.3263 2.36002 11.6863L2.96002 6.68634C3.10669 5.39301 3.33335 4.33301 5.60002 4.33301Z"
+                      fill="white" />
+                    <path
+                      d="M5.33337 5.33301V2.99967C5.33337 1.99967 6.00004 1.33301 7.00004 1.33301H9.00004C10 1.33301 10.6667 1.99967 10.6667 2.99967V5.33301"
+                      stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg> <span class="header__basket-text">Корзина</span> <span class="header__null">0</span> <span
+                    class="header__null-rub">0р</span></button></div>
+              <div class="header__basket-menu basket">
+                <div class="basket__row">
+                  <div class="basket__left">Кресельный подъемник «Flow X»</div>
+                  <div class="basket__right">
+                    <div class="basket__amount">х1</div>
+                    <div class="basket__right-dextral">
+                      <div class="basket__price">760 000р</div><a href="#" class="basket__delete"><img loading="lazy"
+                          src="img/trush.svg" class="image" width="24" height="24" alt="Удалить"></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="basket__row">
+                  <div class="basket__left">Лестничный кресельный подъемник Synergy (производитель Bespoke Stairlifts,
+                    Великобритания)</div>
+                  <div class="basket__right">
+                    <div class="basket__amount">х1</div>
+                    <div class="basket__right-dextral">
+                      <div class="basket__price">258 000р</div><a href="#" class="basket__delete"><img loading="lazy"
+                          src="img/trush.svg" class="image" width="24" height="24" alt="Удалить"></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="basket__row basket__row--second">
+                  <div class="basket__text">Сумма</div>
+                  <div class="basket__right-price">
+                    <div class="basket__price basket__price--all">1018000 р</div>
+                  </div>
+                </div>
+                <div class="basket__row basket__row--second basket__row--colomn"><a href="#"
+                    class="basket__left--second"><img loading="lazy" src="img/bag-black.svg" class="image" width="16"
+                      height="16" alt="Корзина">
+                    <div class="basket__text">Перейти в корзину</div>
+                  </a><a href="#" class="basket__right-order"><img loading="lazy" src="img/arrow-up-right.svg"
+                      class="image basket__arrow" width="16" height="16" alt="">
+                    <div class="basket__text">Оформить заказ</div>
+                  </a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__bottom header-bottom">
+        <div class="container container__wrapper">
+          <div class="header-bottom__inner"><a href="#" class="header-bottom__category">Категории</a> <button
+              class="btn-reset burger" aria-label="Открыть меню" aria-expanded="false"><span
+                class="burger__line"></span></button>
+            <div class="burger__menu"><a href="#" class="burger__row">
+                <div class="burger__text">Велосипеды</div>
+                <div class="burger__num">9</div>
+              </a><a href="#" class="burger__row">
+                <div class="burger__text">Комантные коляски</div>
+                <div class="burger__num">10</div>
+              </a><a href="#" class="burger__row">
+                <div class="burger__text">Прогулочные коляски</div>
+                <div class="burger__num">32</div>
+              </a><a href="#" class="burger__row">
+                <div class="burger__text">Вертикализаторы</div>
+                <div class="burger__num">10</div>
+              </a><a href="#" class="burger__row">
+                <div class="burger__text">Реабилитационные кресла</div>
+                <div class="burger__num">16</div>
+              </a><a href="#" class="burger__row">
+                <div class="burger__text">Приспособления для купания</div>
+                <div class="burger__num">6</div>
+              </a><a href="#" class="burger__row">
+                <div class="burger__text">Ходунки</div>
+                <div class="burger__num">16</div>
+              </a></div>
+            <ul class="list-reset header-bottom__list">
+              <li class="header-bottom__nav header-bottom__nav--close"><a href="#" class="header-bottom__link">Подъемное
+                  оборудование</a></li>
+              <li id="item-2" class="header-bottom__nav"><a href="#" class="header-bottom__link">Техника для
+                  детей-инвалидов</a></li>
+              <li class="header-bottom__nav header-bottom__nav--close"><a href="#" class="header-bottom__link">Техника
+                  для инвалидов и пожилых людей</a></li>
+              <li class="header-bottom__nav header-bottom__nav--close"><a href="#"
+                  class="header-bottom__link">Бесплатная выдача</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="header__contact-menu contact">
+        <div class="container container__wrapper">
+          <div class="contact__inner"><a href="#" class="contact__first"><img loading="lazy" src="img/whatsapp.svg"
+                class="image" width="34" height="34" alt="Ватсап">
+              <div class="contact__text contact__link">Whatsapp</div>
+            </a><a href="tel:88005518795" class="contact__second contact__link">8 (800) 551-87-95</a></div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <div class="container container__wrapper">
+          <div class="hero__top"><img loading="lazy" src="img/home-icon.svg" class="image" width="20" height="20"
+              alt="Дом"> <span class="hero__wrap"><span class="hero__arrow">»</span> <span
+                class="hero__nav">Проекты</span></span></div>
+          <div class="hero__body">
+            <h1 class="hero__title">Проекты</h1>
+            <div class="hero__texts">
+              <p class="hero__text">Лестничные подъёмники отличаются изящным дизайном, просты в установке
+                и эксплуатации. Сделают лестницу любой сложности доступной для маломобильных групп населения, подарит
+                свободу перемещения в пространстве здания.</p>
+              <p class="hero__text">Компактный дизайн и простое крепление к площадке ступеней экономит место и позволяет
+                установить такой подъёмник даже на узких лестницах, не нарушает эстетику интерьера.</p>
+            </div>
+            <div class="hero__cards card">
+              <div class="hero__card">
+                <div class="swiper hero__slider">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-1.avif" type="image/avif">
+                        <source srcset="img/card-img-1.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-1.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-1.avif" type="image/avif">
+                        <source srcset="img/card-img-1.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-1.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-1.avif" type="image/avif">
+                        <source srcset="img/card-img-1.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-1.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-1.avif" type="image/avif">
+                        <source srcset="img/card-img-1.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-1.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination hero__pagination"></div>
+                  <div class="hero__slider-btns"><button
+                      class="btn-reset hero__slider-btn hero__slider-btn--prev"></button> <button
+                      class="btn-reset hero__slider-btn hero__slider-btn--next"></button></div>
+                </div>
+                <div class="card__right">
+                  <h2 class="card__title">Кресельный подъемник смонтирован в здании Главного бюро медико-социальной
+                    экспертизы</h2>
+                  <div class="card__subtitle">Перемещение инвалидов и маломобильных групп населения по лестничным маршам
+                    между этажами.</div>
+                  <div class="card__stats">
+                    <div class="card__stat"><span class="card__stat-title">Модель:</span> <a href="#"
+                        class="card__text card__link">Platinum Curve Stairlift</a></div>
+                    <div class="card__stat"><span class="card__stat-title">Грузоподъемность:</span> <span
+                        class="card__text">120 кг</span></div>
+                    <div class="card__stat"><span class="card__stat-title">Количество остановок:</span> <span
+                        class="card__text">3</span></div>
+                    <div class="card__stat"><span class="card__stat-title">Привод:</span> <span
+                        class="card__text">зубчато-реечный, электрический</span></div>
+                  </div><button class="btn-reset card__btn" data-graph-path="form">Рассчитать проект</button>
+                </div>
+              </div>
+              <div class="hero__card">
+                <div class="swiper hero__slider">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-2.avif" type="image/avif">
+                        <source srcset="img/card-img-2.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-2.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-2.avif" type="image/avif">
+                        <source srcset="img/card-img-2.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-2.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-2.avif" type="image/avif">
+                        <source srcset="img/card-img-2.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-2.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-2.avif" type="image/avif">
+                        <source srcset="img/card-img-2.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-2.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination hero__pagination"></div>
+                  <div class="hero__slider-btns"><button
+                      class="btn-reset hero__slider-btn hero__slider-btn--prev"></button> <button
+                      class="btn-reset hero__slider-btn hero__slider-btn--next"></button></div>
+                </div>
+                <div class="card__right">
+                  <h2 class="card__title">Кресельный подъемник смонтирован в здании Дома ветеранов сцены
+                    им. А. А. Яблочкиной, г. Москва</h2>
+                  <div class="card__subtitle">Перемещение инвалидов и маломобильных групп населения по лестничным маршам
+                    между этажами.</div>
+                  <div class="card__stats">
+                    <div class="card__stat"><span class="card__stat-title">Модель:</span> <a href="#"
+                        class="card__text card__link">Platinum Curve Stairlift</a></div>
+                    <div class="card__stat"><span class="card__stat-title">Грузоподъемность:</span> <span
+                        class="card__text">160 кг</span></div>
+                    <div class="card__stat"><span class="card__stat-title">Количество остановок:</span> <span
+                        class="card__text">2</span></div>
+                    <div class="card__stat"><span class="card__stat-title">Привод:</span> <span
+                        class="card__text">зубчато-реечный, электрический</span></div><button
+                      class="btn-reset card__btn" data-graph-path="form">Рассчитать проект</button>
+                  </div>
+                </div>
+              </div>
+              <div class="hero__card">
+                <div class="swiper hero__slider">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-3.avif" type="image/avif">
+                        <source srcset="img/card-img-3.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-2.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-3.avif" type="image/avif">
+                        <source srcset="img/card-img-3.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-3.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-3.avif" type="image/avif">
+                        <source srcset="img/card-img-3.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-3.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-3.avif" type="image/avif">
+                        <source srcset="img/card-img-3.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-3.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination hero__pagination"></div>
+                  <div class="hero__slider-btns"><button
+                      class="btn-reset hero__slider-btn hero__slider-btn--prev"></button> <button
+                      class="btn-reset hero__slider-btn hero__slider-btn--next"></button></div>
+                </div>
+                <div class="card__right">
+                  <h2 class="card__title">Кресельный подъемник смонтирован в здании Спортивно-адаптивной школы, г.
+                    Екатеринбург</h2>
+                  <div class="card__subtitle">Перемещение инвалидов и маломобильных групп населения по лестничным маршам
+                    между этажами.</div>
+                  <div class="card__stats">
+                    <div class="card__stat"><span class="card__stat-title">Модель:</span> <a href="#"
+                        class="card__text card__link">Platinum Curve Stairlift</a></div>
+                    <div class="card__stat"><span class="card__stat-title">Грузоподъемность:</span> <span
+                        class="card__text">120 кг</span></div>
+                    <div class="card__stat"><span class="card__stat-title">Количество остановок:</span> <span
+                        class="card__text">2</span></div>
+                    <div class="card__stat"><span class="card__stat-title">Привод:</span> <span
+                        class="card__text">зубчато-реечный, электрический</span></div><button
+                      class="btn-reset card__btn" data-graph-path="form">Рассчитать проект</button>
+                  </div>
+                </div>
+              </div>
+              <div class="hero__card">
+                <div class="swiper hero__slider">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-4.avif" type="image/avif">
+                        <source srcset="img/card-img-4.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-4.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-4.avif" type="image/avif">
+                        <source srcset="img/card-img-4.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-4.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-4.avif" type="image/avif">
+                        <source srcset="img/card-img-4.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-4.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-4.avif" type="image/avif">
+                        <source srcset="img/card-img-4.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-4.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination hero__pagination"></div>
+                  <div class="hero__slider-btns"><button
+                      class="btn-reset hero__slider-btn hero__slider-btn--prev"></button> <button
+                      class="btn-reset hero__slider-btn hero__slider-btn--next"></button></div>
+                </div>
+                <div class="card__right">
+                  <h2 class="card__title">Кресельный подъемник смонтирован в здании жилого реабилитационного комплекса
+                  </h2>
+                  <div class="card__subtitle">Перемещение инвалидов и маломобильных групп населения по лестничным маршам
+                    между этажами.</div>
+                  <div class="card__stats">
+                    <div class="card__stat"><span class="card__stat-title">Модель:</span> <a href="#"
+                        class="card__text card__link">Infinity V9 (Bespoke Stairlift)</a></div>
+                    <div class="card__stat"><span class="card__stat-title">Грузоподъемность:</span> <span
+                        class="card__text">125 кг</span></div>
+                    <div class="card__stat"><span class="card__stat-title">Количество остановок:</span> <span
+                        class="card__text">3</span></div>
+                    <div class="card__stat"><span class="card__stat-title">Привод:</span> <span
+                        class="card__text">зубчато-реечный, электрический</span></div><button
+                      class="btn-reset card__btn" data-graph-path="form">Рассчитать проект</button>
+                  </div>
+                </div>
+              </div>
+              <div class="hero__card">
+                <div class="swiper hero__slider">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-5.avif" type="image/avif">
+                        <source srcset="img/card-img-5.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-5.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-5.avif" type="image/avif">
+                        <source srcset="img/card-img-5.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-5.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-5.avif" type="image/avif">
+                        <source srcset="img/card-img-5.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-5.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-5.avif" type="image/avif">
+                        <source srcset="img/card-img-5.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-5.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination hero__pagination"></div>
+                  <div class="hero__slider-btns"><button
+                      class="btn-reset hero__slider-btn hero__slider-btn--prev"></button> <button
+                      class="btn-reset hero__slider-btn hero__slider-btn--next"></button></div>
+                </div>
+                <div class="card__right">
+                  <h2 class="card__title">Кресельный подъемник смонтирован в здании Спортивно-адаптивной школы, г.
+                    Екатеринбург</h2>
+                  <div class="card__subtitle">Перемещение инвалидов и маломобильных групп населения по лестничным маршам
+                    между этажами.</div>
+                  <div class="card__stats">
+                    <div class="card__stat"><span class="card__stat-title">Модель:</span> <a href="#"
+                        class="card__text card__link">Platinum Curve Stairlift</a></div>
+                    <div class="card__stat"><span class="card__stat-title">Грузоподъемность:</span> <span
+                        class="card__text">120 кг</span></div>
+                    <div class="card__stat"><span class="card__stat-title">Количество остановок:</span> <span
+                        class="card__text">2</span></div>
+                    <div class="card__stat"><span class="card__stat-title">Привод:</span> <span
+                        class="card__text">зубчато-реечный, электрический</span></div><button
+                      class="btn-reset card__btn" data-graph-path="form">Рассчитать проект</button>
+                  </div>
+                </div>
+              </div>
+              <div class="hero__card">
+                <div class="swiper hero__slider">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-6.avif" type="image/avif">
+                        <source srcset="img/card-img-6.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-6.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-6.avif" type="image/avif">
+                        <source srcset="img/card-img-6.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-6.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-6.avif" type="image/avif">
+                        <source srcset="img/card-img-6.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-6.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-6.avif" type="image/avif">
+                        <source srcset="img/card-img-6.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-6.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination hero__pagination"></div>
+                  <div class="hero__slider-btns"><button
+                      class="btn-reset hero__slider-btn hero__slider-btn--prev"></button> <button
+                      class="btn-reset hero__slider-btn hero__slider-btn--next"></button></div>
+                </div>
+                <div class="card__right">
+                  <h2 class="card__title">Кресельный подъемник смонтирован в здании Нижневартовского
+                    многофункционального реабилитационного центра</h2>
+                  <div class="card__subtitle">Перемещение инвалидов и маломобильных групп населения по лестничным маршам
+                    между этажами.</div>
+                  <div class="card__stats">
+                    <div class="card__stat"><span class="card__stat-title">Модель:</span> <a href="#"
+                        class="card__text card__link">INFINITY Stairlift</a></div>
+                    <div class="card__stat"><span class="card__stat-title">Грузоподъемность:</span> <span
+                        class="card__text">125 кг</span></div>
+                    <div class="card__stat"><span class="card__stat-title">Количество остановок:</span> <span
+                        class="card__text">3</span></div>
+                    <div class="card__stat"><span class="card__stat-title">Привод:</span> <span
+                        class="card__text">зубчато-реечный, электрический</span></div><button
+                      class="btn-reset card__btn" data-graph-path="form">Рассчитать проект</button>
+                  </div>
+                </div>
+              </div>
+              <div class="hero__card">
+                <div class="swiper hero__slider">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-7.avif" type="image/avif">
+                        <source srcset="img/card-img-7.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-7.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-7.avif" type="image/avif">
+                        <source srcset="img/card-img-7.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-7.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-7.avif" type="image/avif">
+                        <source srcset="img/card-img-7.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-7.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-7.avif" type="image/avif">
+                        <source srcset="img/card-img-7.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-7.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination hero__pagination"></div>
+                  <div class="hero__slider-btns"><button
+                      class="btn-reset hero__slider-btn hero__slider-btn--prev"></button> <button
+                      class="btn-reset hero__slider-btn hero__slider-btn--next"></button></div>
+                </div>
+                <div class="card__right">
+                  <h2 class="card__title">7. Частная клиника, г. Прокопьевск</h2>
+                  <div class="card__subtitle">Перемещение инвалидов и маломобильных групп населения по лестничным маршам
+                    между этажами.</div>
+                  <div class="card__stats">
+                    <div class="card__stat"><span class="card__stat-title">Модель:</span> <a href="#"
+                        class="card__text card__link">Platinum Curve Stairlift</a></div>
+                    <div class="card__stat"><span class="card__stat-title">Грузоподъемность:</span> <span
+                        class="card__text">120 кг</span></div>
+                    <div class="card__stat"><span class="card__stat-title">Количество остановок:</span> <span
+                        class="card__text">2</span></div>
+                    <div class="card__stat"><span class="card__stat-title">Привод:</span> <span
+                        class="card__text">зубчато-реечный, электрический</span></div><button
+                      class="btn-reset card__btn" data-graph-path="form">Рассчитать проект</button>
+                  </div>
+                </div>
+              </div>
+              <div class="hero__card">
+                <div class="swiper hero__slider">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-8.avif" type="image/avif">
+                        <source srcset="img/card-img-8.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-8.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-8.avif" type="image/avif">
+                        <source srcset="img/card-img-8.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-8.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-8.avif" type="image/avif">
+                        <source srcset="img/card-img-8.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-8.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-8.avif" type="image/avif">
+                        <source srcset="img/card-img-8.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-8.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination hero__pagination"></div>
+                  <div class="hero__slider-btns"><button
+                      class="btn-reset hero__slider-btn hero__slider-btn--prev"></button> <button
+                      class="btn-reset hero__slider-btn hero__slider-btn--next"></button></div>
+                </div>
+                <div class="card__right">
+                  <h2 class="card__title">Подъемник для бассейна стационарный, модель F100M, Объект: ГАУ АО АОСРЦ «Русь»
+                  </h2>
+                  <div class="card__subtitle">Перемещение инвалида из коляски в бассейн и обратно</div>
+                  <div class="card__stats">
+                    <div class="card__stat"><span class="card__stat-title">Модель:</span> <a href="#"
+                        class="card__text card__link">DiGi Project F100M</a></div>
+                    <div class="card__stat"><span class="card__stat-title">Грузоподъемность:</span> <span
+                        class="card__text">140 кг</span></div>
+                    <div class="card__stat"><span class="card__stat-title">Количество остановок:</span> <span
+                        class="card__text">автоматическое</span></div>
+                    <div class="card__stat"><span class="card__stat-title">Привод:</span> <span
+                        class="card__text">электромеханический; стационарный</span></div><button
+                      class="btn-reset card__btn" data-graph-path="form">Рассчитать проект</button>
+                  </div>
+                </div>
+              </div>
+              <div class="hero__card">
+                <div class="swiper hero__slider">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-9.avif" type="image/avif">
+                        <source srcset="img/card-img-9.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-9.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-9.avif" type="image/avif">
+                        <source srcset="img/card-img-9.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-9.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-9.avif" type="image/avif">
+                        <source srcset="img/card-img-9.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-9.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-9.avif" type="image/avif">
+                        <source srcset="img/card-img-9.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-9.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination hero__pagination"></div>
+                  <div class="hero__slider-btns"><button
+                      class="btn-reset hero__slider-btn hero__slider-btn--prev"></button> <button
+                      class="btn-reset hero__slider-btn hero__slider-btn--next"></button></div>
+                </div>
+                <div class="card__right">
+                  <h2 class="card__title">Кресельный подъемник смонтирован в здании жилого реабилитационного комплекса
+                  </h2>
+                  <div class="card__subtitle">Перемещение инвалидов и маломобильных групп населения по лестничным маршам
+                    между этажами.</div>
+                  <div class="card__stats">
+                    <div class="card__stat"><span class="card__stat-title">Модель:</span> <a href="#"
+                        class="card__text card__link">INFINITY Stairlift</a></div>
+                    <div class="card__stat"><span class="card__stat-title">Грузоподъемность:</span> <span
+                        class="card__text">125 кг</span></div>
+                    <div class="card__stat"><span class="card__stat-title">Количество остановок:</span> <span
+                        class="card__text">2</span></div>
+                    <div class="card__stat"><span class="card__stat-title">Привод:</span> <span
+                        class="card__text">зубчато-реечный, электрический</span></div><button
+                      class="btn-reset card__btn" data-graph-path="form">Рассчитать проект</button>
+                  </div>
+                </div>
+              </div>
+              <div class="hero__card">
+                <div class="swiper hero__slider">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-10.avif" type="image/avif">
+                        <source srcset="img/card-img-10.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-10.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-10.avif" type="image/avif">
+                        <source srcset="img/card-img-10.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-10.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-10.avif" type="image/avif">
+                        <source srcset="img/card-img-10.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-10.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-10.avif" type="image/avif">
+                        <source srcset="img/card-img-10.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-10.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination hero__pagination"></div>
+                  <div class="hero__slider-btns"><button
+                      class="btn-reset hero__slider-btn hero__slider-btn--prev"></button> <button
+                      class="btn-reset hero__slider-btn hero__slider-btn--next"></button></div>
+                </div>
+                <div class="card__right">
+                  <h2 class="card__title">Кресельный подъемник смонтирован в частном коттедже, Республика Беларусь</h2>
+                  <div class="card__subtitle">Перемещение пожилого человека с первого этажа на второй.</div>
+                  <div class="card__stats">
+                    <div class="card__stat"><span class="card__stat-title">Модель:</span> <a href="#"
+                        class="card__text card__link">Platinum Horizon Plus</a></div>
+                    <div class="card__stat"><span class="card__stat-title">Грузоподъемность:</span> <span
+                        class="card__text">140 кг</span></div>
+                    <div class="card__stat"><span class="card__stat-title">Количество остановок:</span> <span
+                        class="card__text">2</span></div>
+                    <div class="card__stat"><span class="card__stat-title">Привод:</span> <span
+                        class="card__text">зубчато-реечный, электрический</span></div><button
+                      class="btn-reset card__btn" data-graph-path="form">Рассчитать проект</button>
+                  </div>
+                </div>
+              </div>
+              <div class="hero__card">
+                <div class="swiper hero__slider">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-11.avif" type="image/avif">
+                        <source srcset="img/card-img-11.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-11.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-11.avif" type="image/avif">
+                        <source srcset="img/card-img-11.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-11.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-11.avif" type="image/avif">
+                        <source srcset="img/card-img-11.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-11.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-11.avif" type="image/avif">
+                        <source srcset="img/card-img-11.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-11.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination hero__pagination"></div>
+                  <div class="hero__slider-btns"><button
+                      class="btn-reset hero__slider-btn hero__slider-btn--prev"></button> <button
+                      class="btn-reset hero__slider-btn hero__slider-btn--next"></button></div>
+                </div>
+                <div class="card__right">
+                  <h2 class="card__title">Кресельный подъемник смонтирован в частном коттедже в г. Великий Новгород</h2>
+                  <div class="card__subtitle">Перемещение пожилого человека между тремя этажами.</div>
+                  <div class="card__stats">
+                    <div class="card__stat"><span class="card__stat-title">Модель:</span> <a href="#"
+                        class="card__text card__link">Platinum Curve Stairlift</a></div>
+                    <div class="card__stat"><span class="card__stat-title">Грузоподъемность:</span> <span
+                        class="card__text">120 кг</span></div>
+                    <div class="card__stat"><span class="card__stat-title">Количество остановок:</span> <span
+                        class="card__text">3</span></div>
+                    <div class="card__stat"><span class="card__stat-title">Привод:</span> <span
+                        class="card__text">зубчато-реечный, электрический</span></div><button
+                      class="btn-reset card__btn" data-graph-path="form">Рассчитать проект</button>
+                  </div>
+                </div>
+              </div>
+              <div class="hero__card">
+                <div class="swiper hero__slider">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-12.avif" type="image/avif">
+                        <source srcset="img/card-img-12.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-12.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-12.avif" type="image/avif">
+                        <source srcset="img/card-img-12.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-12.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-12.avif" type="image/avif">
+                        <source srcset="img/card-img-12.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-12.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-12.avif" type="image/avif">
+                        <source srcset="img/card-img-12.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-12.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination hero__pagination"></div>
+                  <div class="hero__slider-btns"><button
+                      class="btn-reset hero__slider-btn hero__slider-btn--prev"></button> <button
+                      class="btn-reset hero__slider-btn hero__slider-btn--next"></button></div>
+                </div>
+                <div class="card__right">
+                  <h2 class="card__title">Можнтаж автомобильного подъемного устройства в минивэн</h2>
+                  <div class="card__subtitle">Перемещение инвалида в коляске в /из машины.</div>
+                  <div class="card__stats">
+                    <div class="card__stat card__stat--start"><span class="card__stat-title">Модель:</span> <a href="#"
+                        class="card__text card__link">Автомобильное подъемное устройство F6 Multilink</a></div>
+                    <div class="card__stat"><span class="card__stat-title">Грузоподъемность:</span> <span
+                        class="card__text">300 кг</span></div>
+                    <div class="card__stat"><span class="card__stat-title">Тип лифта:</span> <span
+                        class="card__text">кассетный</span></div>
+                    <div class="card__stat"><span class="card__stat-title">Размер платформы:</span> <span
+                        class="card__text">760×1160 мм</span></div><button class="btn-reset card__btn"
+                      data-graph-path="form">Рассчитать проект</button>
+                  </div>
+                </div>
+              </div>
+              <div class="hero__card">
+                <div class="swiper hero__slider">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-13.avif" type="image/avif">
+                        <source srcset="img/card-img-13.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-13.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-13.avif" type="image/avif">
+                        <source srcset="img/card-img-13.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-13.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-13.avif" type="image/avif">
+                        <source srcset="img/card-img-13.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-13.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                    <div class="swiper-slide hero__slide">
+                      <picture>
+                        <source srcset="img/card-img-13.avif" type="image/avif">
+                        <source srcset="img/card-img-13.webp" type="image/webp"><img loading="lazy"
+                          src="img/card-img-13.jpg" class="image card__img" width="280" height="364"
+                          alt="Кресельный подъемник">
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination hero__pagination"></div>
+                  <div class="hero__slider-btns"><button
+                      class="btn-reset hero__slider-btn hero__slider-btn--prev"></button> <button
+                      class="btn-reset hero__slider-btn hero__slider-btn--next"></button></div>
+                </div>
+                <div class="card__right">
+                  <h2 class="card__title">Потолочный подъемник в частной квартире, г. Санкт-Петербург</h2>
+                  <div class="card__subtitle">Перемещение ребенка с ДЦП с кровати из спальни в ванную комнату для
+                    принятия водных процедур</div>
+                  <div class="card__stats">
+                    <div class="card__stat card__stat--start"><span class="card__stat-title">Модель:</span> <a href="#"
+                        class="card__text card__link">Chiltern Invadex WISPA Lite</a></div>
+                    <div class="card__stat"><span class="card__stat-title">Грузоподъемность:</span> <span
+                        class="card__text">130 кг</span></div>
+                    <div class="card__stat"><span class="card__stat-title">Общая длина пути:</span> <span
+                        class="card__text">12 м</span></div>
+                    <div class="card__stat"><span class="card__stat-title">Путь движения:</span> <span
+                        class="card__text">прямая с 2-мя поворотами</span></div>
+                    <div class="card__stat"><span class="card__stat-title">Ресурс аккумулятора:</span> <span
+                        class="card__text">60 подъемных циклов</span></div><button class="btn-reset card__btn"
+                      data-graph-path="form">Рассчитать проект</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="modal">
+        <div class="modal__overlay">
+          <form class="form"><a href="#" class="modal__close"><img loading="lazy" src="img/close.svg" class="image"
+                width="17.5" height="17.5" alt="Крестик"></a>
+            <div class="form__text">
+              <h2 class="form__title">Расчет проекта</h2>
+              <div class="form__subtitle">Наш специалист проконсультирует вас по актуальным ценам, срокам доставки
+                и дате выезда замерщика на объект</div>
+            </div><label class="form__lable"><input class="input-reset form__input" type="text" placeholder="Ваше имя"
+                inputmode="text" required> <input class="input-reset form__input" type="tel"
+                placeholder="Номер телефона" inputmode="tel" required> <textarea
+                class="input-reset form__input form__textarea" type="text"
+                placeholder="Описание проекта, например: адрес доставки, нужен монтаж и замерщик" inputmode="text"
+                required></textarea> <button class="btn-reset form__button" type="submit">Оставить
+                заявку</button></label>
+          </form>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>
